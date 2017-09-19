@@ -7,7 +7,7 @@ module.exports = function(homebridge) {
   Characteristic = homebridge.hap.Characteristic;
   UUIDGen = homebridge.hap.uuid;
 
-  homebridge.registerPlatform("homebridge-amazondash", "AmazonDash", DashPlatform, true);
+  homebridge.registerPlatform("homebridge-amazondashN", "AmazonDashNew", DashPlatform, true);
 }
 
 function DashPlatform(log, config, api) {
